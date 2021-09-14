@@ -1,4 +1,13 @@
-const experienceData = [];
+const experienceData = [
+  {
+    title: "",
+    company: "",
+    logo: "",
+    city: "",
+    date: "",
+    description: [],
+  },
+];
 
 const educationData = [];
 
