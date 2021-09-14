@@ -62,7 +62,7 @@ const educationData = [
     link: "https://nuu.uz/",
     city: "Tashkent",
     date: "Sep 2017 - Aug 2021",
-    description: [],
+    description: [<li>The Bachelor of Science degree in Physics</li>],
   },
 ];
 
