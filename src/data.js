@@ -7,8 +7,8 @@ const experienceData = [
     companyLink: "https://www.codeway.io/",
     logo: {
       path: codewayLogo,
-      width: "calc(0.25 * 200px)",
-      height: "calc(0.25 * 200px)",
+      width: "calc(0.23 * 200px)",
+      height: "calc(0.23 * 200px)",
     },
     city: "Tashkent",
     date: "Started Feb 2020 - Current",
@@ -16,7 +16,15 @@ const experienceData = [
   },
 ];
 
-const educationData = [];
+const educationData = [
+  {
+    name: "National University of Uzbekistan",
+    link: "https://nuu.uz/",
+    city: "Tashkent",
+    date: "Sep 2017 - Aug 2021",
+    description: [],
+  },
+];
 
 const projectsData = [];
 
