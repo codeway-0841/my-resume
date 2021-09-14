@@ -26,7 +26,22 @@ const educationData = [
   },
 ];
 
-const projectsData = [];
+const projectsData = [
+  {
+    title: "UZMDB MOVIE APP",
+    description: (
+      <div>
+        <p>
+          Uzmdb is an online database of information related to films,
+          television programs, home videos, video games, and streaming content
+          online – including cast, production crew and personal biographies,
+          plot summaries, trivia, ratings, and fan and critical reviews.
+        </p>
+      </div>
+    ),
+    link: "https://uzmdb.netlify.app/",
+  },
+];
 
 const skillsData = {
   programming: [
