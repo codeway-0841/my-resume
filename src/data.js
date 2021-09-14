@@ -1,6 +1,46 @@
-import codewayLogo from "./assets/codeway.jpg";
-
+import codewayLogo from "./assets/codeway0.png";
+import itpLogo from "./assets/itp.png";
+import upworkLogo from "./assets/upwork.png";
 const experienceData = [
+  {
+    title: "Fullstack developer",
+    company: "Freelancer Upwork",
+    companyLink: "https://www.upwork.com/",
+    logo: {
+      path: upworkLogo,
+      width: "calc(0.23 * 200px)",
+      height: "calc(0.23 * 200px)",
+    },
+    city: "Freelancer",
+    date: "Started May 2020 - Current",
+    description: [
+      <li>
+        React and Functional Driven Javascript expert in SPA’s, UI Components,
+        Mobile web and Performance optimization.{" "}
+      </li>,
+      <li>
+        Good experience in using components, Forms, Events, Keys, Router,
+        Animations and Flux concept.
+      </li>,
+    ],
+  },
+  {
+    title: "Frontend developer - mentor",
+    company: "iTP Team",
+    companyLink: "https://www.itp-team.io/",
+    logo: {
+      path: itpLogo,
+      width: "calc(0.23 * 200px)",
+      height: "calc(0.23 * 200px)",
+    },
+    city: "Tashkent",
+    date: "Started Oct 2019 - Current",
+    description: [
+      <div>
+        <p>Establish tutor’s course for young programists</p>
+      </div>,
+    ],
+  },
   {
     title: "CEO",
     company: "Codeway Enterprise Development",
