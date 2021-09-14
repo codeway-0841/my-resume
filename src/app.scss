@@ -1,12 +1,15 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 body {
   --bg: #f7f7f7;
   --gray1: #1c1c1c;
   --gray2: #3c3c3c;
   --gray3: #494949;
   --gray4: #c7c7c7;
-  --gray5: #fff;
-  --gradient1: rgb(151, 218, 251);
-  --gradient2: rgb(109, 131, 255);
+  --gray5: rgb(255, 255, 255);
+  --gradient2: #000000;
   //--tag1-bg: rgb(241, 239, 255);
   --tag1: rgb(158, 136, 255);
   //--tag2-bg: #eef5ff;
@@ -20,12 +23,7 @@ body {
 
 .app {
   .blue {
-    background: --var(--gradient1);
-    background: linear-gradient(
-      -190deg,
-      var(--gradient1) 0%,
-      var(--gradient2) 100%
-    );
+    background: linear-gradient(to right, #0575e6, #021b79);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
