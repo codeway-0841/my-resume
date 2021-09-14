@@ -111,25 +111,70 @@ const Project = ({ project }) => {
   );
 };
 
-const Tag = ({ tag }) => {
-  return <div className="tag">Tag</div>;
+const Tag = ({ tag, type }) => {
+  return <div className={`tag ${type}`}>{tag}</div>;
 };
-
 const Skills = ({ skills }) => {
   return (
     <div className="skills">
       <div className="programming">
         <h4>Programming languages</h4>
-        {skills["programming"].map((tag) => (
-          <Tag tag={tag} />
-        ))}
+        <div className="tags">
+          {skills["programming"]["preferred"].map((tag) => (
+            <Tag type={"preferred"} tag={tag} />
+          ))}
+          {skills["programming"]["knowledge"].map((tag) => (
+            <Tag type={"knowledge"} tag={tag} />
+          ))}
+          {skills["programming"]["interested"].map((tag) => (
+            <Tag type={"interested"} tag={tag} />
+          ))}
+        </div>
+      </div>
+
+      <div className="web">
+        <h4>Web</h4>
+        <div className="tags">
+          {skills["web"]["preferred"].map((tag) => (
+            <Tag type={"preferred"} tag={tag} />
+          ))}
+          {skills["web"]["knowledge"].map((tag) => (
+            <Tag type={"knowledge"} tag={tag} />
+          ))}
+          {skills["web"]["interested"].map((tag) => (
+            <Tag type={"interested"} tag={tag} />
+          ))}
+        </div>
+      </div>
+
+      <div className="rendering">
+        <h4>Rendering</h4>
+        <div className="tags">
+          {skills["rendering"]["preferred"].map((tag) => (
+            <Tag type={"preferred"} tag={tag} />
+          ))}
+          {skills["rendering"]["knowledge"].map((tag) => (
+            <Tag type={"knowledge"} tag={tag} />
+          ))}
+          {skills["rendering"]["interested"].map((tag) => (
+            <Tag type={"interested"} tag={tag} />
+          ))}
+        </div>
       </div>
 
       <div className="tools">
         <h4>Tools</h4>
-        {skills["tools"].map((tag) => (
-          <Tag tag={tag} />
-        ))}
+        <div className="tags">
+          {skills["tools"]["preferred"].map((tag) => (
+            <Tag type={"preferred"} tag={tag} />
+          ))}
+          {skills["tools"]["knowledge"].map((tag) => (
+            <Tag type={"knowledge"} tag={tag} />
+          ))}
+          {skills["tools"]["interested"].map((tag) => (
+            <Tag type={"interested"} tag={tag} />
+          ))}
+        </div>
       </div>
     </div>
   );

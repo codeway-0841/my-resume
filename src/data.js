@@ -44,16 +44,26 @@ const projectsData = [
 ];
 
 const skillsData = {
-  programming: [
-    {
-      name: "hello",
-    },
-  ],
-  tools: [
-    {
-      name: "hello",
-    },
-  ],
+  programming: {
+    preferred: ["C#", "JavaScript", "Typescript"],
+    knowledge: [""],
+    interested: ["Rust"],
+  },
+  web: {
+    preferred: [],
+    knowledge: ["React"],
+    interested: [],
+  },
+  rendering: {
+    preferred: [],
+    knowledge: [],
+    interested: ["WebGPU"],
+  },
+  tools: {
+    preferred: [],
+    knowledge: ["Docker", "Git", "AWS", "Shell"],
+    interested: ["Kubernetes"],
+  },
 };
 
 export { experienceData, educationData, projectsData, skillsData };
