@@ -10,26 +10,31 @@ import "./app.scss";
 const Socials = () => {
   return (
     <div className="socials">
-      <a href="https://github.com/codeway-0841" title="Github">
+      <a className="blue" href="https://github.com/codeway-0841" title="Github">
         <i class="fab fa-github"></i>
         <p>codeway-0841</p>
       </a>
-      <a href="mailto: public.codeway@gmail.com" title="Mail">
+      <a className="blue" href="mailto: public.codeway@gmail.com" title="Mail">
         <i class="far fa-envelope"></i>
         <p>public.codeway@gmail.com</p>
       </a>
       <a
+        className="blue"
         href="https://www.linkedin.com/in/ruslan-ablyamitov-0841/"
         title="LinkedIn"
       >
         <i class="fab fa-linkedin"></i>
         <p>Ruslan Ablyamitov</p>
       </a>
-      <a href="https://www.codeway.io/" title="Personal website">
+      <a
+        className="blue"
+        href="https://www.codeway.io/"
+        title="Personal website"
+      >
         <i class="fas fa-globe-europe"></i>
         <p>codeway.io</p>
       </a>
-      <a href="tel:+998901180841" title="Phone">
+      <a className="blue" href="tel:+998901180841" title="Phone">
         <i class="fas fa-phone-alt"></i>
         <p>+998 90 118 08 41</p>
       </a>
@@ -103,10 +108,12 @@ function App() {
   return (
     <div className="app">
       <div className="resume">
-        <div className="text">
+        <div className="body">
           <div className="header">
-            <h3>Ruslan Ablyamitov</h3>
-            <p>Frontend Developer</p>
+            <div className="text">
+              <h3 className="blue">Ruslan Ablyamitov</h3>
+              <p>Frontend Developer</p>
+            </div>
             <Socials />
             <span className="vertical-bar" />
           </div>
