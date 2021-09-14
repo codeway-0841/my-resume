@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="src/assets/logo-round.png" width="20%" />
+  <img alt="Logo" src="src/assets/codeway.jpg" width="40%" />
 </div>
 <h1 align="center">
   <a href='https://resume.codeway.io/'>resume.codeway.io</a>
