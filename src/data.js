@@ -156,7 +156,7 @@ const skillsData = {
     interested: ["Rust"],
   },
   web: {
-    preferred: [],
+    preferred: ["SASS","Bootstrap"],
     knowledge: ["React","Redux","Redux-saga","Next.js"],
     interested: [],
   },
