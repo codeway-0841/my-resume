@@ -7,7 +7,7 @@
 <p align="center">Resume to go alongside my <a href='https://codeway.io'>personal website</a>.</p>
 
 <h2 align="center">
-  <img src="src/assets/resume.png" alt="example" width="70%" />
+  <img src="src/assets/resume.jpg" alt="example" width="70%" />
   <br>
 </h2>
 
