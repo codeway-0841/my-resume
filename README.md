@@ -4,6 +4,11 @@
 <h1 align="center">
   <a href='https://resume.codeway.io/'>resume.codeway.io</a>
 </h1>
+
+[![Build Status](https://img.shields.io/circleci/project/all-contributors/all-contributors/master.svg)](https://circleci.com/gh/all-contributors/workflows/all-contributors/tree/master)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb5f0fce-d626-4e62-b2a0-aa0f7fd57e59/deploy-status)](https://app.netlify.com/sites/allcontributors-org/deploys)
+[![Pull Reminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
 <p align="center">Resume to go alongside my <a href='https://codeway.io'>personal website</a>.</p>
 
 <h2 align="center">
